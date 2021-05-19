@@ -1,0 +1,27 @@
+{
+  "name": "graphql-subscriptions",
+  "version": "1.0.0",
+  "description": "Subscriptions graphql",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.10.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.6.0",
+    "graphql-subscriptions": "^1.2.1",
+    "graphql-type-json": "^0.3.1",
+    "subscriptions-transport-ws": "^0.9.18"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1",
+    "tedious": "^9.2.1"
+  }
+}
